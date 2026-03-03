@@ -3,7 +3,6 @@ import { useCurrentUser } from '@/hooks/UserHook';
 import { Product } from '@/types/product';
 import axios from 'axios';
 import { useRouter } from 'next/navigation';
-import React from 'react'
 import { useForm } from 'react-hook-form'
 
 const NewProduct = () => {
